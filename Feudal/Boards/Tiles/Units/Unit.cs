@@ -9,7 +9,7 @@ namespace Feudal.Boards.Tiles.Units
 {
     public abstract class Unit : IDrawable
     {
-        public int Value { get; set; }
+        public int CombatValue { get; set; }
         public Image Sprite { get; set; }
         public RenderingLayer Layer { get; set; }
         public bool HasActed { get; set; }

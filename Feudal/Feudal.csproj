@@ -48,8 +48,23 @@
   <ItemGroup>
     <Compile Include="Boards\Board.cs" />
     <Compile Include="Boards\Tiles\Buildings\Building.cs" />
+    <Compile Include="Boards\Tiles\Buildings\Castle.cs" />
+    <Compile Include="Boards\Tiles\Buildings\Gate.cs" />
+    <Compile Include="Boards\Tiles\Buildings\Town.cs" />
+    <Compile Include="Boards\Tiles\Terrains\Forest.cs" />
+    <Compile Include="Boards\Tiles\Terrains\Mountain.cs" />
+    <Compile Include="Boards\Tiles\Terrains\Plain.cs" />
     <Compile Include="Boards\Tiles\Terrains\Terrain.cs" />
+    <Compile Include="Boards\Tiles\Terrains\Water.cs" />
     <Compile Include="Boards\Tiles\Tile.cs" />
+    <Compile Include="Boards\Tiles\Units\Archer.cs" />
+    <Compile Include="Boards\Tiles\Units\Duke.cs" />
+    <Compile Include="Boards\Tiles\Units\King.cs" />
+    <Compile Include="Boards\Tiles\Units\Knight.cs" />
+    <Compile Include="Boards\Tiles\Units\Pikeman.cs" />
+    <Compile Include="Boards\Tiles\Units\Prince.cs" />
+    <Compile Include="Boards\Tiles\Units\Sargeant.cs" />
+    <Compile Include="Boards\Tiles\Units\Squire.cs" />
     <Compile Include="Boards\Tiles\Units\Unit.cs" />
     <Compile Include="Boards\Tiles\IDrawable.cs" />
     <Compile Include="MainForm.cs">

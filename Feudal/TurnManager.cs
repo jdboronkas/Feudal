@@ -9,7 +9,7 @@ namespace Feudal
     public class TurnManager
     {
         public List<Team> TeamTurnOrder { get; private set; }
-        public Team CurrentTeamPlaying { get; set; }
+        public Team CurrentTeamPlaying { get; private set; }
         private int TurnOrderIndex;
 
         public TurnManager()
@@ -31,6 +31,7 @@ namespace Feudal
             }
 
             CurrentTeamPlaying = TeamTurnOrder.ElementAt(TurnOrderIndex);
+            TurnOrderIndex += 1;
         }
     }
 }
